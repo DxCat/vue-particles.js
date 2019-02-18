@@ -19,7 +19,7 @@ export default {
     }
   },
   mounted () {
-    this.particlesJsObject = require('particles.js')
+    require('particles.js')
 
     this.$nextTick(() => {
       this.initParticleJS(this.particlesData)
