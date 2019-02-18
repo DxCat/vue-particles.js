@@ -1,29 +1,56 @@
 # vue-particles.js
+### Vue.js component for [particles.js](https://vincentgarreau.com/particles.js/)
 
-## Project setup
-```
-yarn install
-```
+### Nuxt.js compatible (client only)
 
-### Compiles and hot-reloads for development
+## Add to your project
+```bash
+yarn add @starzio/vue-particles.js --save --dev
 ```
-yarn run serve
-```
-
-### Compiles and minifies for production
-```
-yarn run build
+Or
+```bash
+npm install @starzio/vue-particles.js --save-dev
 ```
 
-### Run your tests
-```
-yarn run test
+## Configure with vue
+```javascript
+import Vue from 'vue'
+import VueParticlesJS from 'vue-particles.js'
+
+Vue.use(VueParticlesJS)
 ```
 
-### Lints and fixes files
-```
-yarn run lint
+## Include in your page
+```vue
+<template>
+  <div id="app">
+    <vue-particles></vue-particles>
+  </div>
+</template>
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+
+## Customization
+you can modify the particlesData prop to use your own particles.js config object.
+```vue
+<template>
+  <div id="app">
+    <vue-particles :particlesData="particlesData"></vue-particles>
+  </div>
+</template>
+
+<script>
+import particlesJSConfig from './particlesjs-config.json'
+
+export default {
+  data: function () {
+    return {
+      particlesData: particlesJSConfig
+    }
+  }
+}
+</script>
+```
+You can generate your particlesjs-config.json file from [particles.js](https://vincentgarreau.com/particles.js/) website.
+
+#### That's it! If you have any questions or issues, feel free to open a pull request.
