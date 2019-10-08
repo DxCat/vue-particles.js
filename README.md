@@ -1,7 +1,5 @@
-# vue-particles.js
-### Vue.js component for [particles.js](https://vincentgarreau.com/particles.js/)
-
-### Nuxt.js compatible (client only)
+# :star: vue-particles.js 
+Vue.js component for [particles.js](https://vincentgarreau.com/particles.js/) with a full customization support!
 
 ## Add to your project
 ```bash
