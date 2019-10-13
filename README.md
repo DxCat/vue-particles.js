@@ -13,7 +13,7 @@ npm install @starzio/vue-particles.js --save-dev
 ## Configure with vue
 ```javascript
 import Vue from 'vue'
-import VueParticlesJS from 'vue-particles.js'
+import VueParticlesJS from '@starzio/vue-particles.js'
 
 Vue.use(VueParticlesJS)
 ```
