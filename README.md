@@ -1,19 +1,19 @@
-# :star: vue-particles.js 
+# :star: vue-particles.js
 Vue.js component for [particles.js](https://vincentgarreau.com/particles.js/) with a full customization support!
 
 ## Add to your project
 ```bash
-yarn add @starzio/vue-particles.js --save --dev
+yarn add @dxcat/vue-particles.js --save --dev
 ```
 Or
 ```bash
-npm install @starzio/vue-particles.js --save-dev
+npm install @dxcat/vue-particles.js --save-dev
 ```
 
 ## Configure with vue
 ```javascript
 import Vue from 'vue'
-import VueParticlesJS from '@starzio/vue-particles.js'
+import VueParticlesJS from '@dxcat/vue-particles.js'
 
 Vue.use(VueParticlesJS)
 ```
@@ -26,7 +26,6 @@ Vue.use(VueParticlesJS)
   </div>
 </template>
 ```
-
 
 ## Customization
 you can modify the particlesData prop to use your own particles.js config object.

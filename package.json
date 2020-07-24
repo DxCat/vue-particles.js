@@ -1,6 +1,6 @@
 {
-  "name": "@starzio/vue-particles.js",
-  "version": "0.1.1",
+  "name": "@dxcat/vue-particles.js",
+  "version": "0.1.3",
   "license": "MIT",
   "keywords": [
     "vue",
@@ -11,11 +11,11 @@
     "vue-component",
     "vue-particles"
   ],
-  "main": "./dist/@starzio/vue-particles.js",
+  "main": "./dist/@dxcat/vue-particles.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "build-bundle": "vue-cli-service build --target lib --name @starzio/vue-particles.js ./src/vue-particles.js/index.js",
+    "build-bundle": "vue-cli-service build --target lib --name @dxcat/vue-particles.js ./src/vue-particles.js/index.js",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
@@ -25,7 +25,7 @@
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.4.0",
     "@vue/cli-plugin-eslint": "^3.4.0",
-    "@vue/cli-service": "^3.4.0",
+    "@vue/cli-service": "^4.5.0",
     "babel-eslint": "^10.0.1",
     "eslint": "^5.8.0",
     "eslint-plugin-vue": "^5.0.0",
@@ -61,5 +61,15 @@
     "> 1%",
     "last 2 versions",
     "not ie <= 8"
-  ]
+  ],
+  "description": "Vue.js component for [particles.js](https://vincentgarreau.com/particles.js/) with a full customization support!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DxCat/vue-particles.js.git"
+  },
+  "author": "DxCat",
+  "bugs": {
+    "url": "https://github.com/DxCat/vue-particles.js/issues"
+  },
+  "homepage": "https://github.com/DxCat/vue-particles.js#readme"
 }
